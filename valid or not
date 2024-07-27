@@ -1,0 +1,16 @@
+import java.io.*;
+class username{
+    public static void main(String args[])
+    {
+        String s1="saveetha@789";
+        String s2="saveetha@123";
+        if (s1==s2)
+        {
+            System.out.println("User name is valid");
+        }
+        else
+        {
+            System.out.println("User name is Invalid");
+        }
+    }
+}
