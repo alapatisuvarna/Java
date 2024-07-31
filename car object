@@ -1,0 +1,23 @@
+class Car 
+{
+    String color;
+    String model;
+    int year;
+    void displayInfo()
+    {
+        System.out.println("Car Model: " + model);
+        System.out.println("Car Color: " + color);
+        System.out.println("Car Year: " + year);
+    }
+}
+public class Main 
+{
+    public static void main(String[] args)
+    {
+        Car myCar = new Car();
+        myCar.color = "Red";
+        myCar.model = "Toyota Camry";
+        myCar.year = 2021;
+        myCar.displayInfo();
+    }
+}
